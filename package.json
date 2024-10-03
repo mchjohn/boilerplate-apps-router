@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky",
-    "test": "vitest"
+    "test": "vitest --passWithNoTests",
+    "test:staged": "pnpm vitest related --run",
+    "test:ci": "pnpm vitest --coverage --run"
   },
   "dependencies": {
     "next": "14.2.14",
