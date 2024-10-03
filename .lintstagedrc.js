@@ -3,5 +3,6 @@ module.exports = {
   '*.{ts,tsx}': (filenames) => [
     `prettier --write ${filenames.join(' ')}`,
     `pnpm run lint --fix . ${filenames.join(' --file')}`,
+    `pnpm test -- --findRelatedTests ${filenames.join(' ')}`,
   ]
 }
