@@ -3,4 +3,3 @@
 build
 coverage
 .next
-vitest.setup.ts
