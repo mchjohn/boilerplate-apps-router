@@ -1,7 +1,7 @@
 export function Main() {
   return (
-    <div>
-      <h1 id="oi">Hello main</h1>
+    <div className="min-h-screen flex justify-center items-center">
+      <h1>Template com Next App Router</h1>
     </div>
   );
 }
