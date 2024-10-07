@@ -1,7 +1,7 @@
 ```markdown
 # Template Next App Router
 
-Simple template for Next projects
+Simple template for Next projects.
 
 ## Table of Contents
 
@@ -27,7 +27,7 @@ cd boilerplate-apps-router
 3. Install the required dependencies:
 
 ```bash
-pnpm install
+yarn install
 ```
 
 ## Usage
@@ -37,7 +37,19 @@ To use the project, follow these steps:
 1. Start the development server:
 
 ```bash
-pnpm run dev
+yarn run dev
+```
+
+2. Open your web browser and navigate to `http://localhost:3000`.
+
+## Use as template
+
+To use the project, follow these steps:
+
+1. Start the development server:
+
+```bash
+npx create-next-app --example https://github.com/mchjohn/boilerplate-apps-router
 ```
 
 2. Open your web browser and navigate to `http://localhost:3000`.
