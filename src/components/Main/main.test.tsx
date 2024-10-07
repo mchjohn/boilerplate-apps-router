@@ -8,7 +8,7 @@ describe('Main', () => {
     render(<Main />);
 
     expect(
-      screen.getByRole('heading', { name: 'Hello main' }),
+      screen.getByRole('heading', { name: 'Hello main!' }),
     ).toBeInTheDocument();
   });
 });
