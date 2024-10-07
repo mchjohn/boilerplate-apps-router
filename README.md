@@ -1,7 +1,7 @@
 ```markdown
 # Template Next App Router
 
-Simple template for Next projects
+Simple template for Next projects.
 
 ## Table of Contents
 
